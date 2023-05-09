@@ -8,7 +8,7 @@ int Compare(const void* first, const void* second){
     return *(int*)second - *(int*)first;
 }
 
-// tangerine_len은 배열 tangerine의 길이입니다.
+
 int solution(int k, int tangerine[], size_t tangerine_len) {
     int answer = 0;
     int *check = (int*)malloc(sizeof(int) * (tangerine_len + 1));
